@@ -1,0 +1,6 @@
+Pyap library source code | https://github.com/vladimarius/pyap/blob/master/pyap/source_US/data.py | Gave me a comprehensive understanding in the address parsing logic
+medium | https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d | This blog explained the state of the art frameworks and models for address detetion.
+Stackoverflow | https://stackoverflow.com/questions/19994396/best-way-to-identify-and-extract-dates-from-text-python | Helped me with an issue I was facing while extracting dates
+datefinder Source Code | https://github.com/akoumjian/datefinder/blob/master/datefinder/__init__.py#L33 | This particular code file helped me in understanding the underlying implementation of the date extraction logic/
+glob | https://docs.python.org/3/library/glob.html | This heled me get idea about glob and its usage
+spacy | https://spacy.io/models | Helped me understand more anout spacy's models in various text processing tasks
