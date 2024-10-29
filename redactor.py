@@ -48,7 +48,7 @@ if __name__=='__main__':
     parser.add_argument('--names', action='store_true', help='Censor names')
     parser.add_argument('--dates', action='store_true', help='Censor dates')
     parser.add_argument('--phones', action='store_true', help='Censor phone numbers')
-    # parser.add_argument('--address', action='store_true', help='Censor addresses')
+    parser.add_argument('--address', action='store_true', help='Censor addresses')
     parser.add_argument('--concept', action='append', help='<Required> Set flag', required=True)
     parser.add_argument('--stats', type=str, help='File to write statistics', default='stderr')
     args = parser.parse_args()
