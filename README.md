@@ -14,7 +14,8 @@ The project is structured to have a censoror file that is triggered initially, w
 The downloaded files is saved into the directory path give in the --output flag. 
 
 3. TESTING
-This project can be classified into 3 parts - extracting and censoring entities, storing the data, writing the stats. Test files are designed to test each phase. test_entity.py file tests the data download phase, test_extraction.py file tests all functions that are written to extract each information from the raw text, and the test_dbmanager.py file implemented to test all the functions related to creation and handling the data in the sqlite database.
+This project can be classified into 3 parts - extracting and censoring entities, storing the data, writing the stats. Test files are designed to test each phase.
+test_<entityname>.py file tests the detection and redaction of such entities.
 
 
 # How to install
